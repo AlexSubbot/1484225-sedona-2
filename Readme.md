@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Александр Субботин](https://up.htmlacademy.ru/htmlcss-individual/2/user/1484225).
-* Наставник: `Неизвестно`.
+* Наставник: [Кенан Агаев](https://htmlacademy.ru/profile/kenakula).
 
 ---
 
