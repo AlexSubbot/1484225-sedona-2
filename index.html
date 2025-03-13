@@ -36,11 +36,11 @@
               </span>
             </a>
           </li>
+          <li class="navigation-item action-item">
+            <a class="action-link" href="#">Хочу сюда</a>
+          </li>
         </ul>
       </nav>
-      <button>
-        Хочу сюда
-      </button>
     </header>
 
 
@@ -83,38 +83,39 @@
             </li>
           </ul>
         </section>
-        <section>
-          <h2>Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
-          <p>Опытный персонал и качественное обслуживание!</p>
-          <ul>
-            <li>
-              <h3>Жильё</h3>
-              <p>Рекомендуем пожитьв настоящем мотеле, всё как в кино!</p>
+        <section class="tourist-info">
+          <h2 class="tourist-info-caption">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
+          <p class="tourist-info-text">Опытный персонал и качественное обслуживание!</p>
+          <ul class="tourist-info-list">
+            <li class="tourist-info-item">
+              <h3 class="tourist-info-title">Жильё</h3>
+              <p class="tourist-info-description">Рекомендуем пожитьв настоящем мотеле, всё как в кино!</p>
             </li>
             <li>
-              <h3>Еда</h3>
-              <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+              <h3 class="tourist-info-title">Еда</h3>
+              <p class="tourist-info-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
             </li>
             <li>
-              <h3>Сувениры</h3>
-              <p>Не только китайского, но и настоящего местного производства!</p>
+              <h3 class="tourist-info-title">Сувениры</h3>
+              <p class="tourist-info-description">Не только китайского, но и настоящего местного производства!</p>
             </li>
           </ul>
         </section>
 
-        <section>
-          <h2>Заинтересовались?</h2>
-          <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-          <a href="#">поиск гостиницы в седоне</a>
+        <section class="promo">
+          <h2 class="promo-caption">Заинтересовались?</h2>
+          <p class="promo-text">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+          <a class="promo-link" href="#">поиск гостиницы в седоне</a>
         </section>
 
-        <section>
-          <h2>Подпишитесь на рассылку</h2>
-          <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-          <form action="POST">
-            <input type="text">
-            <input type="button" value="Подписаться">
-          </form>
+        <section class="subscribe">
+          <h2 class="subscribe-caption">Подпишитесь на рассылку</h2>
+          <p class="subscribe-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
+          <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+            <label class="visually-hidden" for="subscribe-email">Укажите Ваш e-mail</label>
+            <input type="e-mail" name="user-name" id="subscribe-email" placeholder="Ваш e-mail" required>
+            <button class="subscribe-button" type="submit"> Подписаться</button>
+        </form>
         </section>
 
     </main>
@@ -145,9 +146,9 @@
         </li>
       </ul>
       <a class="phone-link" href="tel:+781281212123">+7 (812) 812-12-12</a>
-      <a class="html-academy-link" href="#">
+      <a class="html-academy-link" href="https://htmlacademy.ru/">
         <span class="visually-hidden">
-          HTML Академия
+          Логотип HTML Академии
         </span>
     </footer>
   </body>
