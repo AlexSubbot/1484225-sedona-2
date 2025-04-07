@@ -6,7 +6,7 @@
   </head>
   <body>
     <header class="page-header">
-      <a class="header-logo">
+      <a class="header-logo" href="#">
         <img src="img/logo.svg" width="170" height="70" alt="Логотип сайта городка Седона">
       </a>
       <nav class="navigation">
@@ -18,26 +18,27 @@
             <a class="navigation-link" href="#">О седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">Гостиницы</a>
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
-        <ul class="navigation-list action-list">
-          <li class="navigation-item action-item">
-            <a class="navigation-link action-link" href="#">
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item">
+            <a class="navigation-link search-link" href="#">
               <span class="visually-hidden">
                 Поиск
               </span>
             </a>
           </li>
-          <li class="navigation-item action-item">
-            <a class="navigation-link action-link" href="#">
+          <li class="navigation-item">
+            <a class="navigation-link favourites-link" href="#">
+              <span class="favourites-count">12</span>
               <span class="visually-hidden">
                 Избранное
               </span>
             </a>
           </li>
-          <li class="navigation-item action-item">
-            <a class="action-link" href="#">Хочу сюда</a>
+          <li class="navigation-item">
+            <a class="navigation-link order-link" href="#">Хочу сюда</a>
           </li>
         </ul>
       </nav>
@@ -47,14 +48,14 @@
     <main class="main-index">
       <h1 class="visually-hidden">Сайт городка Седона</h1>
       <img class="logo" src="#" alt="Надпись Седона на фоне гор">
-      <section class="advantages">
-        <h2 class="visually-hidden">
-          Преимущества
-        </h2>
+
         <section class="advantages">
-          <h2 class="adventages-caption">
-            Седона — небольшой городок в Аризоне, заслуживающий большего!
+          <h2 class="visually-hidden">
+            Преимущества Седоны
           </h2>
+          <p class="adventages-caption">
+            Седона — небольшой городок в Аризоне, заслуживающий большего!
+          </p>
           <p class="adventages-text">
             Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
           </p>
@@ -84,7 +85,8 @@
           </ul>
         </section>
         <section class="tourist-info">
-          <h2 class="tourist-info-caption">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
+          <h2 class="visually-hidden">Информация для туристов об размещении, питании и сувенирах</h2>
+          <p class="tourist-info-caption">Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
           <p class="tourist-info-text">Опытный персонал и качественное обслуживание!</p>
           <ul class="tourist-info-list">
             <li class="tourist-info-item">
@@ -103,18 +105,20 @@
         </section>
 
         <section class="promo">
-          <h2 class="promo-caption">Заинтересовались?</h2>
+          <h2 class="visually-hidden">Поиск гостиницы</h2>
+          <p class="promo-caption">Заинтересовались?</p>
           <p class="promo-text">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-          <a class="promo-link" href="#">поиск гостиницы в седоне</a>
+          <a class="promo-link" href="catalog.html">поиск гостиницы в седоне</a>
         </section>
 
         <section class="subscribe">
-          <h2 class="subscribe-caption">Подпишитесь на рассылку</h2>
+          <h2 class="visually-hidden">Подписка на информационную рассылку о Седоне</h2>
+          <p class="subscribe-caption">Подпишитесь на рассылку</p>
           <p class="subscribe-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
             <label class="visually-hidden" for="subscribe-email">Укажите Ваш e-mail</label>
             <input type="e-mail" name="user-name" id="subscribe-email" placeholder="Ваш e-mail" required>
-            <button class="subscribe-button" type="submit"> Подписаться</button>
+            <button class="subscribe-button" type="submit">Подписаться</button>
         </form>
         </section>
 
