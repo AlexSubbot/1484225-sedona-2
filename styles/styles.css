@@ -14,6 +14,7 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
+
 body {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
@@ -21,6 +22,20 @@ body {
   line-height: 21px;
   background-color: #F2F2F2;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .navigation-link {
   font-weight: 700;
   font-size: 20px;
@@ -44,11 +59,10 @@ body {
   background-position: left bottom, left top;
 }
 
-.adventages-caption {
+.adventages-caption{
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  letter-spacing: 0%;
   text-transform: uppercase;
 }
 
@@ -76,4 +90,216 @@ body {
 
 .advantages-accent-dark {
   background-color: #83B3D333;
+}
+
+.tourist-info-caption {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.tourist-info-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.tourist-info-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.promo-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.promo-caption {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.promo-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.subscribe {
+  background-image: url(../images/subscribe-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.subscribe-caption {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.subscribe-input {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.subscribe-button {
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.phone-link {
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+
+/*
+__________________________________
+
+**********CATALOG**********
+
+__________________________________
+*/
+
+
+.header-wrapper {
+  background-image: url(../images/catalog-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.catalog-header-caption {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.filter-form-header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.price-input {
+font-size: 18px;
+line-height: 24px;
+}
+
+.filter-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border: none;
+}
+
+.filter-button-blue {
+  background-color: #82B3D3;
+}
+
+.filter-button-transparent {
+  background-color: transparent;
+}
+
+.results-caption {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.results-option {
+  font-family: PT Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.result {
+  font-size: 18px;
+  line-height: 21px;
+}
+.result-header {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.result-type {
+  color: #333333;
+}
+
+.result-price {
+  color: #333333;
+}
+
+.result-about {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background-color: #756157;
+}
+
+.result-in-favorite {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background-color: #82B3D3;
+}
+
+.result-rate {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #333333;
+  background-color: #F2F2F2;
+
+}
+
+.pagination-item-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.pagination-item-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.pagination-more-page {
+  background-color: #FFFFFF;
 }
