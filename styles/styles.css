@@ -15,13 +15,29 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+
+}
+
 body {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   background-color: #F2F2F2;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 
 .visually-hidden {
   position: absolute;
@@ -35,6 +51,48 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+
+.page-header{
+
+}
+
+.navigation {
+  padding: 0;
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.navigation-site {
+  display: flex;
+}
+
+.navigation-user {
+  display: flex;
+  margin-left: auto;
+}
+
+
+
+
+.main-container {
+  flex-grow: 1;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+
 
 .navigation-link {
   font-weight: 700;
@@ -59,16 +117,23 @@ body {
   background-position: left bottom, left top;
 }
 
+.advantages-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 .adventages-caption{
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .adventages-text {
   font-size: 22px;
   line-height: 26px;
+  text-align: center;
 }
 
 .adventages-title {
@@ -80,13 +145,28 @@ body {
 
 .advantages-item {
   background-color: #83B3D31F;
+  width: 400px;
+  text-align: center;
 }
 
 .advantages-wide {
   background-color: #82B3D3;
   color: #FFFFFF;
+  text-align: center;
 }
 
+.advantages-wide-wrapper {
+  display: flex;
+
+}
+
+.tourist-info-caption {
+  text-align: center;
+}
+
+.tourist-info-text {
+  text-align: center;
+}
 
 .advantages-accent-dark {
   background-color: #83B3D333;
